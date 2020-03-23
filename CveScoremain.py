@@ -36,11 +36,11 @@ def predict():
     random_state = 100
     kfold = model_selection.StratifiedKFold(n_splits=10)
 
-    tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2),
-                            stop_words='english')
-    features = tfidf.fit_transform(df.description).toarray()
-    labels = df.baseScore
-    features.shape
+#     tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2),
+#                             stop_words='english')
+#     features = tfidf.fit_transform(df.description).toarray()
+#     labels = df.baseScore
+#     features.shape
 
     print(df.baseScore)
 
