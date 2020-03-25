@@ -54,7 +54,7 @@ def predict():
     # RandomForestRegressor = ensemble.RandomForestRegressor(random_state=100, n_jobs=1, verbose=1, oob_score=True)
     # RandomForestRegressorAfterFit = RandomForestRegressor.fit(X_train_tfidf, y_train)
 
-    # path = 'C:/Users/tahsin.asif/OneDrive - CYFIRMA INDIA PRIVATE LIMITED/AI/CveScorePrediction/'
+    # path = '............../AI/CveScorePrediction/'
     # joblib.dump(RandomForestRegressorAfterFit, os.path.join(path, 'regression_model-v4.pkl'))
 
     # cross check the dumped model with load
